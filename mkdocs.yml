@@ -38,12 +38,16 @@ theme:
       accent: orange
 
 nav:
-  - Whitepaper: 'index.md'
+  - Whitepaper:
+    - Introduction: 'index.md'
+    - Put: 'test.md'
+    - Stuff: 'test.md'
+    - Here: 'test.md'
   - ISPO: 
-    - P1: 'about.md'
+    - Another Introduction: 'about.md'
+    - P1: 'test.md'
     - P2: 'test.md'
     - P3: 'test.md'
-    - P4: 'test.md'
   - Roadmap: 'test.md'
 
 
