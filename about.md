@@ -1,3 +1,6 @@
+---
+layout: sidebar
+---
 # About Page
 
 Learn more about us here.

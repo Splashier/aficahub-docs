@@ -1,3 +1,6 @@
+---
+layout: sidebar
+---
 # Contact Page
 
 Get in touch with us!
