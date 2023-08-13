@@ -8,6 +8,6 @@ Pledge = 30 000 000 000 Lovelace (30K ADA)
 
 </aside>
 
-```bash
+``` bash title="testnet.sh"
 --testnet-magic 1097911063
 ```
