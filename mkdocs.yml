@@ -11,6 +11,14 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+  # logo: assets/afica-logo.png
+  favicon: images/favicon.png
+  icon:
+    logo: fontawesome/solid/earth-africa
+    # favicon: fontawesome/solid/earth-africa
 
   palette: 
     #Palette toggle for light mode
@@ -30,5 +38,34 @@ theme:
       accent: orange
 
 nav:
-  - Home: 'index.md'
-  - Getting Started: 'about.md'
+  - Whitepaper: 'index.md'
+  - ISPO: 
+    - P1: 'about.md'
+    - P2: 'test.md'
+    - P3: 'test.md'
+    - P4: 'test.md'
+  - Roadmap: 'test.md'
+
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  homepage: https:docs.afica.io
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
