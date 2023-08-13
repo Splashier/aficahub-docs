@@ -1,17 +1,8 @@
-### Navigation:
-- [Home](README.md)
-- [About](about.md)
-- [Contact](contact.md)
+---
+layout: sidebar
+---
 
-```bash
-[Unit]
-Description=<Node exporter>
+# Home Page
 
-[Service]
-User=<root>
-ExecStart=<prometheus-node-export>
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-```
+Welcome to the home page.
+...
