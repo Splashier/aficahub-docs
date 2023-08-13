@@ -1,0 +1,21 @@
+title: AFICA Stake Pool Docs
+email: info@afica.io
+description: >- # this means to ignore newlines until the next ">"
+  This is a sample site built with Jekyll for GitHub Pages.
+baseurl: "" # the subpath of your site, e.g. /blog (if your site is hosted at example.com/blog)
+url: "https://splashier.github.io" # the base hostname & protocol for your site
+# twitter_username: your_twitter_handle
+# github_username:  your_github_handle
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed or included in the site output.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
